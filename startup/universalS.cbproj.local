@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.312,D:\zeka\Projects\startup\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=D:\zeka\Projects\startup\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.068,D:\zeka\Projects\startup\Project1.cbproj=D:\zeka\Projects\startup\universalS.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.519,C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\zeka\Projects\startup\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.626,D:\zeka\Projects\ftpservercontroller\sourses\Project1.dproj=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.724,=D:\zeka\Projects\ftpservercontroller\sourses\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.111,=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,D:\zeka\Projects\startup\Project1PCH1.h=D:\zeka\Projects\startup\universalSPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.648,=D:\zeka\Projects\startup\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\zeka\Projects\startup\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\zeka\Projects\startup\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.158,C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\zeka\Projects\startup\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\zeka\Projects\startup\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.093,=D:\zeka\Projects\startup\Unit3.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

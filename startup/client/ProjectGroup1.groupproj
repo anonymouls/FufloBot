@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F5898DA2-63EC-48BC-A59B-A3A9E72682C5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\universalS.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="client.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\lifechecker\Project1.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="universalS">
+        <MSBuild Projects="..\universalS.cbproj"/>
+    </Target>
+    <Target Name="universalS:Clean">
+        <MSBuild Projects="..\universalS.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="universalS:Make">
+        <MSBuild Projects="..\universalS.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="client">
+        <MSBuild Projects="client.cbproj"/>
+    </Target>
+    <Target Name="client:Clean">
+        <MSBuild Projects="client.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="client:Make">
+        <MSBuild Projects="client.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\lifechecker\Project1.cbproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\lifechecker\Project1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\lifechecker\Project1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="universalS;client;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="universalS:Clean;client:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="universalS:Make;client:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

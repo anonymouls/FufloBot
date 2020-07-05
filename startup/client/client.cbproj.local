@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.824,D:\zeka\Projects\startup\client\Unit1.dfm=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.824,D:\zeka\Projects\startup\client\Unit1.cpp=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.154,D:\zeka\Projects\startup\client\Project1PCH1.h=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.782,=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.278,D:\zeka\Projects\startup\client\client.cbproj=D:\zeka\Projects\startup\client\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.793,=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.719,D:\zeka\Projects\startup\client\Project1.cbproj=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.824,D:\zeka\Projects\startup\client\Unit1.h=C:\Users\anonymouls\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.265,D:\zeka\Projects\startup\client\clientPCH1.h=D:\zeka\Projects\startup\client\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>
